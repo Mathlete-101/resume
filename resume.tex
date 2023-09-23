@@ -8,11 +8,11 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[colorlinks = true,
-            linkcolor = red,
-            urlcolor  = blue,
-            citecolor = blue,
-            anchorcolor = blue]{hyperref}
+\usepackage[colorlinks = black,
+  linkcolor = black,
+  urlcolor  = black,
+  citecolor = black,
+  anchorcolor = black]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -56,17 +56,17 @@
 
 % Sections formatting
 \titleformat{\section}
-  { \vspace{-4pt}
-    \scshape\raggedright\large\bfseries
-    \vspace{-5pt}}
-  {}{0em}
-  {}                                                  % Insert code before heading
-  [\color{black}\titlerule\vspace{-5pt}]              % Line
+{ \vspace{-4pt}
+\scshape\raggedright\large\bfseries
+\vspace{-5pt}}
+{}{0em}
+{}                                                  % Insert code before heading
+[\color{black}\titlerule\vspace{-5pt}]              % Line
 
 \titleformat{\subsection}
-  {\large\scshape\raggedright}
-  {}{0em}
-  {}
+{\large\scshape\raggedright}
+{}{0em}
+{}
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -75,29 +75,29 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+      {#1 \vspace{-2pt}}
   }
 }
 
 \newcommand{\classesList}[4]{
-    \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
+  \item\small{
+      {#1 #2 #3 #4 \vspace{-2pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      {\small#3} & {\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textbf{\small #2} \\
+    {\small#3} & {\small #4} \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
@@ -129,158 +129,150 @@
 \begin{document}
 
 \begin{center}
-    {
-    \huge \scshape Eugin Pahk} \\ \vspace{4pt}
-    \small
-    \href{mailto:eugin03@gmail.com}{\faEnvelope\ eugin03@gmail.com} ~
-    % \raisebox{-0.1\height} 
-    \href{tel:7192713078}{\faPhone\ (719) 271-3078} ~ \\
-    \vspace{2pt}
-    \href{https://linkedin.com/in/epahk}{\faLinkedin\ https://linkedin.com/in/epahk}  ~
-    \href{https://github.com/gosueep}{\faGithub\ https://github.com/gosueep}
-    \vspace{-5pt}
+{
+\huge \scshape Nathan Jensen} \\ \vspace{4pt}
+\small
+\href{mailto:nath.h.jensen@gmail.com}{\faEnvelope\ nath.h.jensen@gmail.com} ~
+% \raisebox{-0.1\height}
+\href{tel:7196007414}{\faPhone\ (719) 600-7414} ~ \\
+\vspace{2pt}
+\href{https://www.linkedin.com/in/n-h-jensen/}{\faLinkedin\ https://www.linkedin.com/in/n-h-jensen/}  ~
+\href{https://github.com/Mathlete-101}{\faGithub\ https://github.com/Mathlete-101}
+\vspace{-5pt}
 \end{center}
 
 
 
 \section{Education}   %-----------EDUCATION-----------
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Colorado School of Mines}{August 2021 -- December 2023}
-      {Bachelor's of Science in Computer Science }{GPA: 4.0}
-      \resumeItemListStart
-        \resumeItem{Colorado Scholars Fund Recipient -- full-tuition scholarship}
-        \resumeItem{Google CMAPP Scholar, PATHS CS Scholar, FIRST Scholar}
-        % \resumeItem{Clubs: ACM, Oresec, Competitive Programming}
-      \resumeItemListEnd
-      % \small{\textbf{Coursework: Course-1, Course-2, Course-3, Course-4}}
-    \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Colorado School of Mines}{August 2022 -- December 2025}
+{Bachelor's of Science in Computer Science }{GPA: 3.9}
+\resumeItemListStart
+\resumeItem{McBride Honors Program}
+\resumeItem{Thorson First Year Honors Experience}
+\resumeItem{National Merit Scholarship}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 
 \section{Skills and Certifications}   %-----------Technical Skills-----------
- \begin{itemize}[leftmargin=0.1in, label={}]
-    \small{\item{
-      \textbf{Active Secret Clearance}\\
-      \textbf{Skills/Languages}{: Python, Java, C++, JS, C\#, AWS} \\
-      \textbf{Frameworks \& Tools}{: NodeJS, React, SolidJS, Maven, Jenkins, SonarQube} \\
-      \textbf{Certifications}{: AWS Solutions Architect -- Associate, Security Pro, Network Pro, Linux Pro}\\
-    }}
- \end{itemize}
+\begin{itemize}[leftmargin=0.1in, label={}]
+\small{\item{
+\textbf{Current Secret Clearance}\\
+\textbf{Languages \&Skills}{: Python, Java, C++, JS, Agile Methodologies, SAFe} \\
+\textbf{Certifications}{: Oracle Java Foundations, Oracle Database Foundations}\\
+}}
+\end{itemize}
 
 \section{Work Experience}   %-----------Work EXPERIENCE-----------
-  \resumeSubHeadingListStart
-    % Cloud303
-    \resumeSubheading
-      {Cloud303}{Aug. 2022 -- Present}
-      {Cloud \& Software Engineering Intern}{Lakewood, CO}
-      \resumeItemListStart
-        \resumeItem{Built a full-stack web app utilizing computer vision to locate missing people in drone searches. React frontend, Python backend containerized for AWS Lambda}
-        % \resumeItem{Developing a CRM to re}
-        \resumeItem{Provided consulting to clients on security, efficiency, and cost of their AWS tech stacks}
-      \resumeItemListEnd
+\resumeSubHeadingListStart
 
-    % Chevron
-    \resumeSubheading
-      {Chevron}{May 2023 -- Aug. 2023}
-      {Software Engineering Intern}{Houston, TX}
-      \resumeItemListStart
-        \resumeItem{
-          Developed C\# plugins, modeling 3D seismic data to optimize geoscientist workflows. 
-          Contributed \$5M in business value, aiding drilling operations to prevent kicks and well losses}
-        \resumeItem{Wrote C\# and Python scripts for data migration between Azure environments for Chevron New Energies}
-      \resumeItemListEnd
-      
-    
-    % Northrop Grumman   
-    \resumeSubheading
-      {Northrop Grumman}{June 2022 -- Aug. 2022}
-      {Systems \& Software Engineering Intern}{Colorado Springs, CO}
-      \resumeItemListStart
-        \resumeItem{Automated generation of JUnit tests using fuzzing tools; increased code coverage up to 38\%}
-        \resumeItem{Utilized Maven and Jenkins, to create SonarQube jobs for code analysis for 8 repositories}
-    \resumeItemListEnd
+% Northrop Grumman
+\resumeSubheading
+{Northrop Grumman}{June 2023 -- Aug. 2023}
+{Software Engineering Intern}{Colorado Springs, CO}
+\resumeItemListStart
+\resumeItem{Worked on an Agile Scrum team on US government radar systems sustainment contract.}
+\resumeItem{Improved test coverage to 100\% on several modules and developed tools for supporting test team.}
+\resumeItemListEnd
 
-    % Discrete Math
-    \resumeSubheading
-    {Colorado School of Mines}{Jan. 2022 -- May 2022}
-    {Discrete Math Teaching Assistant}{Golden, CO}
-    \resumeItemListStart
-      \resumeItem{Taught fundamentals of computer science including logic, sets, proofs, combinatorics, and recursion}
-      \resumeItem{Wrote homework assignments \& exams, graded, and held weekly office hours}
-    \resumeItemListEnd
-    
-  \resumeSubHeadingListEnd
+\resumeSubheading
+{CBC Companies }{July 2020 -- December 2022}
+{Programmer Intern}    {Remote}                            \resumeItemListStart
+\resumeItem{Enhanced and debugged frontend of internal-use web application (VIE).}
+\resumeItem{Worked with another developer to upgrade from older AngularJS based code to more modern techniques in the Angular framework.}
+\resumeItem{Debugged backend of internal-use web application (VIE).}
+\resumeItemListEnd
 
-\section{Research Experience}   %-----------Work EXPERIENCE-----------
-  \resumeSubHeadingListStart
-    % CCSP
-    \resumeSubheading
-      {Center for Cyber Security and Privacy}{Sept 2021 -- May 2022}
-      {Research Assistant, Co-Author}{Golden, CO}
-      \resumeItemListStart
-        \resumeItem{Developed website for a user study simulating privacy negotiations in smart homes}
-        \resumeItem{Lead member on the negotiation algorithm; conducted statistical analysis using R and Python}
-        \resumeItem{Published our paper in ACM CHI 2023 Conference, 2nd author}
-    \resumeItemListEnd
-  \resumeSubHeadingListEnd
+\resumeSubheading
+{Eclypses}{June 2020 -- July 2020}
+{Programmer Intern}{Remote}
+\resumeItemListStart
+\resumeItem{Prototyped web application to demonstrate tokenization security technology}
+\resumeItemListEnd
 
-\section{Leadership Experience \& Clubs}  %-----------Work EXPERIENCE-----------
-  \resumeSubHeadingListStart
-    % ACM
-    \resumeSubheading
-      {Association for Computing Machinery (ACM)}{Aug. 2021 -- Present}
-      {Vice Chair, Student Advisor}{Golden, CO}
-      \resumeItemListStart
-        \resumeItem{Led club \& officers, planned weekly meetings \& events, arranged tech talks with industry partners}
-        \resumeItem{Organized a hackathon at University of North Carolina Chapel Hill with 16 members}
-        \resumeItem{Facilitated a mentorship program in collaboration with ACM-W to connect underclassmen with upperclassmen}
-      \resumeItemListEnd
+\resumeSubHeadingListEnd
 
-    % Oresec
-    \resumeSubheading
-      {Mines Cybersecurity Club (Oresec) }{Aug. 2021 -- Present}
-      {Secretary}{Golden, CO}
-      \resumeItemListStart
-        \resumeItem{Coordinated tech talks from alumni and industry professionals}
-        \resumeItem{Competed in CTFs, blue-team defense competitions; 3rd at RMCCDC regionals}
-      \resumeItemListEnd
+\section{Research Experience}
+\resumeSubHeadingListStart
+% CCSP
+\resumeSubheading
+{Mines Prevasive Computing Research Group}{Sept 2023 -- Present}
+{Research Assistant}{Golden, CO}
+\resumeItemListStart
+\resumeItem{Analyzed encoding techniques for delegating image recognition tasks from drones to edge compupting devices.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 
-    % % CPM
-    % \resumeSubheading
-    %   {Competitive Programming at Mines}{Aug. 2021 -- Present}
-    %   {Member}{Golden, CO}
-    %   \resumeItemListStart
-    %     \resumeItem{Weekly Kattis and Codeforces competitions}
-    %     \resumeItem{Coordinated tech talks from alumni and industry professionals}
-    % \resumeItemListEnd
+\section{Volunteering}
+\resumeSubHeadingListStart
 
-  \resumeSubHeadingListEnd
+\resumeSubheading
+{Unum Guatemala}{July 2021}
+{Volunteer}{Guatemala}
+\resumeItemListStart
+\resumeItem{Organized and ran a summer program for youth in education facility; helped construct drainage systems.}
+\resumeItem{Distributed water filtration systems to surrounding community.}
+\resumeItem{Facilitated a mentorship program in collaboration with ACM-W to connect underclassmen with upperclassmen}
+\resumeItemListEnd
 
-\section{Projects}    %-----------PROJECTS-----------
-    \resumeSubHeadingListStart
-      % Rende
-      \resumeProjectHeading
-      {Rende $|$ \href{https://rende.fun}{https://rende.fun}}{Jan. 2023 -- Present}
-        \resumeItemListStart
-          \resumeItem{Web app to help students find campus events and to help organizers facilitate and advertise their meetings}
-          \resumeItem{SolidJS frontend, Go backend, Postgres DB on Supabase, hosted on AWS}
-        \resumeItemListEnd
-      
-      % % EVSE
-      % \resumeProjectHeading
-      % {Electric Vehicle Supply Equipment Security}{Jan. 2023 -- May 2023}
-      %   \resumeItemListStart
-      %     \resumeItem{Security Research on Open Charge Point Protocol version 2.0}
-      %     \resumeItem{Concluded that less secure profiles are still open to replay attacks}
-      %   \resumeItemListEnd
+\resumeSubheading
+{West Side Community Center}{2010 -- 2021}
+{Volunteer}{Colorado Springs, CO}
+\resumeItemListStart
+\resumeItem{Volunteered at annual Thanksgiving and Christmas events.}
+\resumeItem{Ran Eagle Scout project (see Involvement).}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 
-    % \resumeProjectHeading
-    %       {\textbf{Project Title} $|$ \emph{Tool1, Tool2, Tool3, Tool4 \href{https://github.com/}{Git}}}{Month -- Month Year}
-    %       \resumeItemListStart
-    %         \resumeItem{ Write about your project experience.}
-    %         \resumeItem{ Write about your project experience.}
-    %       \resumeItemListEnd
-    %       \vspace{-14pt}
-    \resumeSubHeadingListEnd
+\section{Involvement}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{L'Space}{September 2022 -- December 2022}
+{Participant}{Remote}
+\resumeItemListStart
+\resumeItem{Nasa Proposal Writing and Evaluation Experience: a class on how to write proposals with NASA.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Robotics}{2018 -- 2022}{Programming Department Co-Leader}{blah}
+\resumeItemListStart
+\resumeItem{Competed in battlebots in Mines robotics team.}
+\resumeItem{Co-led the programming department of high school FRC Team.}
+\resumeItemListEnd
+\resumeSubheading{Scouting}{2014-2020}{Eagle Scout}{Colorado Springs, CO}
+\resumeItemListStart
+\resumeItem{Led a patrol for approximately 3 years; assisted several scouts in advancing to First Class rank.}
+\resumeItem{Eagle Scout Project – Planned and led project to repaint room in the West Side Community Center}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% I could put stuff here
+%fuhbluh?
+
+% \section{Projects}    %-----------PROJECTS-----------
+% \resumeSubHeadingListStart
+
+% % EVSE
+% \resumeProjectHeading
+% {Electric Vehicle Supply Equipment Security}{Jan. 2023 -- May 2023}
+%   \resumeItemListStart
+%     \resumeItem{Security Research on Open Charge Point Protocol version 2.0}
+%     \resumeItem{Concluded that less secure profiles are still open to replay attacks}
+%   \resumeItemListEnd
+
+% \resumeProjectHeading
+%       {\textbf{Project Title} $|$ \emph{Tool1, Tool2, Tool3, Tool4 \href{https://github.com/}{Git}}}{Month -- Month Year}
+%       \resumeItemListStart
+%         \resumeItem{ Write about your project experience.}
+%         \resumeItem{ Write about your project experience.}
+%       \resumeItemListEnd
+%       \vspace{-14pt}
+% \resumeSubHeadingListEnd
+
+%Not using this one right now.
 
 %------------Publications-----------
 % \section{Publication}
